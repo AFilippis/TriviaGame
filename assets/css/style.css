@@ -1,0 +1,52 @@
+
+body{
+    font-family: 'Play', sans-serif;
+  background-color: lightslategray;
+}
+.start{
+	padding:0;		
+}
+
+h1{ 
+    font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+.header{
+	height: 200px;
+	width: 100%;
+    padding-top: 5em;
+}
+.startBtn{
+    background-color: darkslategrey;
+    border: 1px solid darkslategrey;
+	width: 400px;
+}
+.startBtn:hover {
+    background-color:black;
+}
+.startBtn:active {
+    background-color: black;
+}
+
+.trivSection{ 
+	margin-top: 100px;
+	text-align: center;
+ }
+ .question, .answers, .rightAnswer, .wrongAnswer, .gameOver, .score{
+    font-family: 'Play', sans-serif;
+ 	padding: 30px;
+ 	font-size: 15px;
+ 	margin: 10px;
+ }
+.progress-bar{
+    background-color: darkgrey;
+}
+ /*buttons*/
+ .blueBtn { 
+  color: #FFFFFF; 
+  background-color: darkslategrey; 
+  border-color: #000000;
+  padding: 1em;
+
+} 
+
