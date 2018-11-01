@@ -120,7 +120,7 @@ $(document).ready(function () {
             clearInterval(timer)
             //increment Q count
             qACount++;
-            if (qACount <= 3) {
+            if (qACount <= 5) {
                 //removes CORRECT! text and continues to create next question after 3 seconds
                 setTimeout(
                     function () {
@@ -160,7 +160,7 @@ $(document).ready(function () {
             //increment Q count
             qACount++;
 
-            if (qACount <= 3) {
+            if (qACount <= 5) {
                 setTimeout(function () {
                     $('.trivSection').empty();
                     createQuestions();
